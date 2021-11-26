@@ -4,16 +4,16 @@
 
 25.11.2021 - 25.11.2021 В среде разработки IDE, на 4-ой строке, меняла номера карт, например "371270334533478".
 
-На тестирование затрачено: <2>
+На тестирование затрачено: 2 часа
 
 В результате тестирования выявлены следующие дефекты:
-* https://github.com/SvetlanaZakharchenko/1.-Java.Credit-Card-Number-Validator/issues/1
+* [Приём платежей с International, American Express банковских карт, не производится](https://github.com/SvetlanaZakharchenko/1.-Java.Credit-Card-Number-Validator/issues/1)
 
 
 ## Описание процесса тестирования
 
 
-В качестве тестовых данных использовались данные https://www.freeformatter.com/credit-card-number-generator-validator.html:
+В качестве тестовых данных использовались [Валидные номера карт](https://www.freeformatter.com/credit-card-number-generator-validator.html):
 * Diners Club - International: 36161324157393; 36456025564636; 36620312443164 - Result is OK.
 * American Express (AMEX): 344878172258992; 374829382160323; 377163270073050 - Result is OK.
 
